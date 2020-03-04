@@ -202,3 +202,21 @@ body {
   margin: 2%;
   padding: 2%;
 }
+.between .between-right .b-r {
+  border-bottom: 1px solid gray;
+}
+.between .between-right ul {
+  margin: 2%;
+  padding: 2%;
+  border-bottom: 1px solid gray;
+}
+table,
+th,
+td {
+  margin: 15px auto;
+  padding: 20px;
+  border: 1px solid black;
+}
+h2 {
+  font-size: 30px;
+}

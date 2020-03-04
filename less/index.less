@@ -140,6 +140,7 @@ body {
 }
 //less code goes here
 @h1-size: 40px;
+@h2-size: 30px;
 .setup() {
   margin: 2%;
   padding: 2%;
@@ -206,5 +207,25 @@ body {
     border: 1px dashed red;
     width: 40%;
     .setup();
+    .b-r {
+      border-bottom: 1px solid gray;
+    }
+    ul {
+      .setup();
+
+      border-bottom: 1px solid gray;
+    }
   }
+}
+
+table,
+th,
+td {
+  margin: 15px auto;
+  padding: 20px;
+
+  border: 1px solid black;
+}
+h2 {
+  font-size: @h2-size;
 }
