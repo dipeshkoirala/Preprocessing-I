@@ -175,8 +175,18 @@ body {
   .top {
     .setup();
     border: 1px dashed blue;
-    width: 30vh;
-    height: 30vh;
+    width: 35vh;
+    height: 35vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    .dk {
+      width: 33vh;
+      height: 33vh;
+      border-radius: 50%;
+    }
   }
   .mid {
     .setup();
@@ -225,7 +235,26 @@ td {
   padding: 20px;
 
   border: 1px solid black;
+
+  tr:nth-child(even) {
+    background-color: #eee;
+  }
+  tr:nth-child(odd) {
+    background-color: #ffa;
+  }
+  th {
+    background-color: black;
+    color: white;
+  }
 }
 h2 {
   font-size: @h2-size;
+  padding: 10px;
+}
+.copy-r {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
 }

@@ -165,8 +165,18 @@ body {
   margin: 2%;
   padding: 2%;
   border: 1px dashed blue;
-  width: 30vh;
-  height: 30vh;
+  width: 35vh;
+  height: 35vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+}
+.main .top .dk {
+  width: 33vh;
+  height: 33vh;
+  border-radius: 50%;
 }
 .main .mid {
   margin: 2%;
@@ -217,6 +227,30 @@ td {
   padding: 20px;
   border: 1px solid black;
 }
+table tr:nth-child(even),
+th tr:nth-child(even),
+td tr:nth-child(even) {
+  background-color: #eee;
+}
+table tr:nth-child(odd),
+th tr:nth-child(odd),
+td tr:nth-child(odd) {
+  background-color: #ffa;
+}
+table th,
+th th,
+td th {
+  background-color: black;
+  color: white;
+}
 h2 {
   font-size: 30px;
+  padding: 10px;
+}
+.copy-r {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
 }
